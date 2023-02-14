@@ -29,7 +29,7 @@ public class Hello {
         return "Hello World, intelliJ Part 2!!";
     }
 
-    // new RestAPI Method by VSCode
+    // new RestAPI Method by VSCode 
     @GetMapping("/vscode")
     public String vscode(){
         log.info("하와와와, VSCode에서 추가한 Get RestAPI인거예요");
